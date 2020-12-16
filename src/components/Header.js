@@ -2,20 +2,22 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 import avatar from "../images/avatar.png"
+import { Typewriter } from 'react-typewriting-effect'
+import 'react-typewriting-effect/dist/index.css'
+
 
 const Header = () => {
   return (
+    
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          <Fade bottom>
             <h1>
-              Hi, I'm {data.name}{" "}
+              Hi, I'm <Typewriter string={data.name}  delay={80} loop="True"></Typewriter>{" "}
               <span>
                 <img src={avatar} style={{height:60, width: 60, borderRadius: 60}} alt="avatar"></img>
               </span>
             </h1>
-          </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">
               <h2>
@@ -43,15 +45,16 @@ const Header = () => {
           <Fade bottom>
             <a
               href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
+                data.contactEmail ? data.contactEmail : "susiejojo1@gmail.com"
               }`}
               className="primary-btn"
             >
-              CONNECT WITH ME
+              REACH OUT TO ME!
             </a>
           </Fade>
         </div>
       </div>
+      
     </div>
   )
 }

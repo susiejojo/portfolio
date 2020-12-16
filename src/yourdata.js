@@ -61,6 +61,7 @@ export default {
       btncolor: "blue",
       btntext: "white",
       txtcolor: "white",
+      stack: ["click","python","Github API"],
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
@@ -76,12 +77,13 @@ export default {
       btncolor: "blue",
       btntext: "white",
       txtcolor: "black",
+      stack: ["ML","NLP","JS"],
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
       title: "Tooney_tunes", //Project Title - Add Your Project Title Here
       para:
-        "A music-based platformer game. Built using Phaser.js during MLH Fall '20 Fellowship, Sprint2. ", // Add Your Service Type Here
+        "A music-based platformer game. ", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://raw.githubusercontent.com/susiejojo/tooney_tunes/master/res/img3.png",
@@ -91,6 +93,7 @@ export default {
       btncolor: "blue",
       btntext: "white",
       txtcolor: "black",
+      stack: ["Phaser.js","Node"],
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
@@ -106,6 +109,7 @@ export default {
       btncolor: "blue",
       btntext: "white",
       txtcolor: "black",
+      stack: ["React","Node","OSM"],
     },
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
@@ -121,6 +125,7 @@ export default {
       btncolor: "blue",
       btntext: "white",
       txtcolor: "black",
+      stack: ["Raphael","Node","Routing Algo"],
     },
     {
       id: 6, //DO NOT CHANGE THIS (Please)😅
@@ -136,6 +141,7 @@ export default {
       btncolor: "black",
       btntext: "white",
       txtcolor: "black",
+      stack: ["Python","Wit.ai","Messenger"],
     },
     {
       id: 7, //DO NOT CHANGE THIS (Please)😅
@@ -150,6 +156,7 @@ export default {
       btncolor: "black",
       btntext: "white",
       txtcolor: "black",
+      stack: ["React","Flask"],
     },
     {
       id: 8, //DO NOT CHANGE THIS (Please)😅
@@ -165,12 +172,13 @@ export default {
       btncolor: "blue",
       btntext: "white",
       txtcolor: "white",
+      stack: ["YOLO","Gabor Filter","Tri-star design"],
     },
     {
       id: 9, //DO NOT CHANGE THIS (Please)😅
-      title: "MIPS Processor using Verilog", //Project Title - Add Your Project Title Here
+      title: "MIPS Processor", //Project Title - Add Your Project Title Here
       para:
-        "A simple MIPS processor implemented using Verilog capable of supporting basic I,J and R type instructions. Built using Xilinx Vivado 2019.1.", // Add Your Service Type Here
+        "MIPS processor implemented using Verilog supporting basic I,J and R type instructions.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://i.postimg.cc/8Pv1KrHh/image.png",
@@ -180,12 +188,13 @@ export default {
       btncolor: "blue",
       btntext: "white",
       txtcolor: "black",
+      stack: ["Verilog","Vivado"],
     },
     {
       id: 10, //DO NOT CHANGE THIS (Please)😅
       title: "Sobel Filter using Verilog", //Project Title - Add Your Project Title Here
       para:
-        "Sobel filter for edge detection in images supporting parallel processing using Verilog on Xilinx ISE 13.4.", // Add Your Service Type Here
+        "Sobel filter for edge detection in images supporting parallel processing.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://i.postimg.cc/Njvngyw7/200px-Bikesgraysobel.jpg",
@@ -195,10 +204,11 @@ export default {
       btncolor: "blue",
       btntext: "white",
       txtcolor: "white",
+      stack: ["Verilog","ISE"],
     },
     {
       id: 11, //DO NOT CHANGE THIS (Please)😅
-      title: "Smart Streetlights using LoRaWAN", //Project Title - Add Your Project Title Here
+      title: "Smart Streetlights", //Project Title - Add Your Project Title Here
       para:
         "Smart streetlight for the college campus using LoRaWAN and ESP8266", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -210,6 +220,23 @@ export default {
       btncolor: "blue",
       btntext: "white",
       txtcolor: "white",
+      stack: ["LoRaWAN","ESP8266","Arduino"],
+    },
+    {
+      id: 12, //DO NOT CHANGE THIS (Please)😅
+      title: "Abstract-Paper mapping", //Project Title - Add Your Project Title Here
+      para:
+        "Matching abstracts to papers using LDA", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://i.postimg.cc/HnMP7HL1/lda.jpg",
+      //Project URL - Add Your Project Url Here
+      url: "https://github.com/susiejojo/Mutton_biriyani",
+      headingcol: "yellow",
+      btncolor: "blue",
+      btntext: "white",
+      txtcolor: "white",
+      stack: ["LDA","NLP"],
     },
   ],
 
@@ -222,8 +249,7 @@ export default {
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   aboutParaThree:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+
 
   //   End About Section ---------------------
 
@@ -329,8 +355,7 @@ export default {
   //   Promotion Section --------------------------
 
   promotionHeading: "Experience",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  promotionPara:"",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
@@ -353,7 +378,7 @@ export default {
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/diya_susiejojo/",
     },
   ],
 

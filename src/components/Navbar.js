@@ -11,12 +11,14 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
-            Portfolio.
+            Dipanwita
           </div>
           <div className="links-wrapper">
-            <button onClick={() => scrollTo("#work")}>Work</button>
-            <button onClick={() => scrollTo("#about")}>About</button>
-            <button onClick={() => scrollTo("#contact")}>Contact</button>
+            <button onClick={() => scrollTo("#work")}><b>Work</b></button>
+            <button onClick={() => scrollTo("#about")}><b>Education</b></button>
+            <button onClick={() => scrollTo("#experience")}><b>Experience</b></button>
+            <button onClick={() => scrollTo("#contact")}><b>Contact</b></button>
+            <button onClick={() => window.location.href="https://drive.google.com/file/d/1KBX8fg3YoH7mwUu2uzPMOrtmUhjvgDMT/view?usp=sharing"}><b>Resume</b></button>
           </div>
         </div>
       </div>

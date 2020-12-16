@@ -27,6 +27,7 @@ const Work = () => {
                   btncolor={project.btncolor}
                   btntxt={project.btntxt}
                   txtcolor={project.txtcolor}
+                  stack={project.stack}
                 ></Card>
               ))}
             </Fade>

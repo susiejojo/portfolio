@@ -8,12 +8,17 @@
 import React from "react"
 import Navbar from "./Navbar"
 import "../styles/mains.scss"
+import ParticlesBg from 'particles-bg'
 
 const Layout = ({ children }) => {
+  
   return (
     <>
+    <ParticlesBg color="#ff0000" num = {100} type="cobweb" bg={true} />
       <Navbar></Navbar>
-      <main>{children}</main>
+      <main>
+      
+        {children}</main>
     </>
   )
 }

@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
+import avatar from "../images/avatar.png"
 
 const Header = () => {
   return (
@@ -8,32 +9,32 @@ const Header = () => {
       <div className="container">
         <div className="header-wrapper">
           <Fade bottom>
-            <h2>
+            <h1>
               Hi, I'm {data.name}{" "}
-              <span role="img" aria-label="Emoji">
-                👋
+              <span>
+                <img src={avatar} style={{height:60, width: 60, borderRadius: 60}} alt="avatar"></img>
               </span>
-            </h2>
+            </h1>
           </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">
-              <h1>
+              <h2>
                 {data.headerTagline[0]
                   ? data.headerTagline[0]
                   : "Building digital"}
-              </h1>
-              <h1>
+              </h2>
+              <h2>
                 {" "}
                 {data.headerTagline[1]
                   ? data.headerTagline[1]
                   : "products, brands"}
-              </h1>
-              <h1>
+              </h2>
+              <h2>
                 {" "}
                 {data.headerTagline[2]
                   ? data.headerTagline[2]
                   : "and experience"}
-              </h1>
+              </h2>
             </div>
           </Fade>
           <Fade bottom>

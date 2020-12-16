@@ -10,7 +10,7 @@ const Work = () => {
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1>Work</h1>
+            <h1>Work Samples</h1>
           </Fade>
 
           <div className="grid">
@@ -18,10 +18,15 @@ const Work = () => {
               {data.projects.map(project => (
                 <Card
                   key={project.id}
-                  heading={project.title}
+                  heading=
+                  {project.title}
                   paragraph={project.para}
                   imgUrl={project.imageSrc}
                   projectLink={project.url}
+                  headingcol={project.headingcol}
+                  btncolor={project.btncolor}
+                  btntxt={project.btntxt}
+                  txtcolor={project.txtcolor}
                 ></Card>
               ))}
             </Fade>

@@ -24,6 +24,8 @@
       transition: all 0.2s ease-in-out;
       font-size: 16px;
       background-color: black;
+      border-right: 2px;
+      border-color: white;
       color:white;
       outline: none;
       border: 0px;
@@ -35,6 +37,20 @@
     .active {
       color: black;
       border: 2px;
+    }
+    a {
+      text-decoration: none;
+      font-family: "Open Sans";
+      opacity: 0.6;
+      transition: all 0.2s ease-in-out;
+      font-size: 16px;
+      background-color: black;
+      color:white;
+      outline: none;
+      cursor: pointer;
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 }

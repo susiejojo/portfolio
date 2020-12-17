@@ -19,7 +19,7 @@ const Navbar = () => {
             <button onClick={() => scrollTo("#experience")}><b>Experience</b></button>
             <button onClick={() => scrollTo("#achievements")}><b>Achievements</b></button>
             <button onClick={() => scrollTo("#contact")}><b>Contact</b></button>
-            <button onClick={() => window.location.href="https://drive.google.com/file/d/1KBX8fg3YoH7mwUu2uzPMOrtmUhjvgDMT/view?usp=sharing"}><b>Resume</b></button>
+            <a href="https://drive.google.com/file/d/1KBX8fg3YoH7mwUu2uzPMOrtmUhjvgDMT/view?usp=sharing" class="button"><b>Resume</b></a>
           </div>
         </div>
       </div>

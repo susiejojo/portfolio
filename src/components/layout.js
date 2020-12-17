@@ -8,14 +8,14 @@
 import React from "react"
 import Navbar from "./Navbar"
 import "../styles/mains.scss"
-import ParticlesBg from 'particles-bg'
+// import ParticlesBg from 'particles-bg'
 import Social from "./social"
 
 const Layout = ({ children }) => {
   
   return (
     <>
-    <ParticlesBg color="#ff0000" num = {100} type="cobweb" bg={true} />
+    {/* <ParticlesBg color="#ff0000" num = {100} type="cobweb" bg={true} /> */}
       <Navbar></Navbar>
       <Social/>
       <main>

@@ -125,7 +125,7 @@ const Promotion = () => {
             <Typography variant="h6" component="h3">
             Microsoft Codess Mentee
             </Typography>
-            <Typography>Secured First position in Mars Colonization Engage Program</Typography>
+            <Typography>Microsoft India</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>

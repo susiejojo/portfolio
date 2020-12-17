@@ -18,9 +18,9 @@ const Awards = () => {
       <div className="container">
         <div className="about-section">
         <div className="content">
-            <Fade bottom cascade>
+            <Fade top cascade>
               <h1>Awards and Accolades</h1>
-            </Fade>
+            
         <List>
         <ListItem>
             <ListItemAvatar>
@@ -28,7 +28,7 @@ const Awards = () => {
             <img src={award1} style={{height:40, width: 40}} alt="dl"></img>
             </Avatar>
             </ListItemAvatar>
-            <ListItemText primary="Dean's List Award, IIIT-H" secondary="Top 5% of the batch in 2019,2020" />
+            <ListItemText primary="Dean's List Award, IIIT-H" secondary="Top 5% of the batch in 2018,2019" />
         </ListItem>
         <ListItem>
             <ListItemAvatar>
@@ -63,6 +63,7 @@ const Awards = () => {
             <ListItemText primary="National Talent Search Examination Scholar" secondary="Awarded by NCERT, 2016" />
         </ListItem>
         </List>
+        </Fade>
         </div>
         </div>
       </div>

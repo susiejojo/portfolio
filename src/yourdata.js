@@ -363,7 +363,7 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/susiejojo" },
     {
       img: linkedinIcon,
       url: "https://www.linkedin.com/in/dipanwita-guhathakurta-408ab1178/",

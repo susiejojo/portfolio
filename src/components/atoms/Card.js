@@ -30,7 +30,8 @@ const Card = ({ heading, paragraph, imgUrl, projectLink, btncolor, btntxt, txtco
           imgUrl +
           ")",
         opacity: 0.8,
-        fontFamily: 'Arial'
+        fontFamily: 'Arial',
+        zIndex: -1
       }}
     >
       <button className={classes.stkbutton}><b>{stack[0]}</b></button>

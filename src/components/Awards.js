@@ -19,7 +19,7 @@ const Awards = () => {
         <div className="about-section">
         <div className="content">
             <Fade top cascade>
-              <h1>Awards and Accolades</h1>
+              <h1>Achievements</h1>
             
         <List>
         <ListItem>

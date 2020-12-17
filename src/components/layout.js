@@ -9,14 +9,12 @@ import React from "react"
 import Navbar from "./Navbar"
 import "../styles/mains.scss"
 import Particles from 'react-particles-js';
-import Social from "./social"
 
 const Layout = ({ children }) => {
   
   return (
     <>
     <Navbar></Navbar>
-      <Social/>
     <Particles id ="particles-js"
     params={{
       "particles": {
@@ -129,7 +127,7 @@ const Layout = ({ children }) => {
       "retina_detect": true
     }} />
       
-      <main>
+      <main>      
         {children}</main>
     </>
   )
